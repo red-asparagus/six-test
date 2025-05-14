@@ -1,0 +1,27 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>org.spacex</groupId>
+   <version>1.0</version>
+   <artifactId>dragons</artifactId>
+
+   <name>project</name>
+
+   <properties>
+      <!-- https://maven.apache.org/general.html#encoding-warning -->
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+      <maven.compiler.source>17</maven.compiler.source>
+      <maven.compiler.target>17</maven.compiler.target>
+   </properties>
+
+   <dependencies>
+      <dependency>
+         <groupId>org.junit.jupiter</groupId>
+         <artifactId>junit-jupiter-api</artifactId>
+         <version>5.11.4</version>
+         <scope>test</scope>
+      </dependency>
+
+   </dependencies>
+
+</project>
